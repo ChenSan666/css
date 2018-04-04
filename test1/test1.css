@@ -1,0 +1,47 @@
+.big-box{
+    position: relative;
+    width: 100%;
+    /* padding-bottom: 100%; */
+    /* background-color: #ccc; */
+}
+.big-box:after{
+    content:"";
+    display: block;
+    padding-top: 100%
+}
+.wrapper{
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* 第一种 */
+/* .small-box{
+
+    flex: 0 0 32%;
+    height: 32%;
+    margin: 0 0 2% 0;
+    background-color: orange;
+    border-radius: 8px;
+} */
+
+/* 第二种 */
+.small-box{
+    float: left;
+    width: 32%;
+    height: 32%;
+    margin: 0 2% 2% 0;
+    border-radius: 8px;
+    background-color: orange;
+}
+.heng-last{
+    margin-right: 0;
+}
+.shu-last{
+    margin-bottom: 0;
+}
