@@ -1,0 +1,29 @@
+body{
+    background-color: #68cdd5
+}
+.back{
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+    margin: 100px auto;
+}
+.desc{
+    width: 68%;
+    margin: 0 auto;
+    color: #fff;
+}
+.group{
+    width: 66%;
+    margin: 160px auto;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.group .l{
+    float: left;
+    
+}
+.group .r{
+    float: right;
+}
