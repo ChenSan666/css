@@ -1,0 +1,82 @@
+p{
+    margin: 0;
+}
+body{
+    background-color: #eff0f4;
+}
+form{
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    background-color: #5fc0cd;
+    color: white;
+}
+.reg, .close{
+    float: left;
+    height: 44px;
+    width: 50px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 44px;
+}
+.close{
+    float: right;
+}
+
+.login{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin: 0 50px;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+.phone, .passwd{
+    margin: 10px 0px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+}
+
+.icon{
+    float: left;
+    width: 48px;
+    height: 40px;
+    /* background-color: #0f66ff; */
+}
+.wrapper{
+    margin-left: 48px;
+    line-height: 40px;
+}
+.phone-input, .passwd-input{
+    text-indent: 1.5em;
+    height: 1.5em;
+    width: 100%;
+    border: 0;
+    border-left: 1px solid #eff0f4;
+    outline-style: none;
+}
+
+.login-btn{
+    display: block;
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    background-color: #5fc0cd;
+    color: white;
+}
+.forget{
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    font-size: 12px;
+}
+.forget a{
+    color: #5fc0cd;
+    
+}
