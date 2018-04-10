@@ -2,9 +2,18 @@ html,body{
     margin: 0;
     padding: 0;
 }
-p{
+p, ul, li{
     margin: 0;
     padding: 0;
+}
+ul{
+    list-style: none;
+}
+.star{
+    font-size: 12px;
+    color: #e26163;
+    vertical-align: top;
+    padding-left: 15px;
 }
 .shu{
     color: #5fc0cd;
@@ -84,12 +93,69 @@ p{
 
 } */
 .detail-info .skill{
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     border-bottom: 1px solid #e1e5e7;
 }
 
 .detail-info .skill p{
-    font-size: 13px;
-    padding-left: 13px;
+    font-size: 15px;
+    padding-left: 11px;
     height: 30px;
+}
+.skill-list{
+    margin-left: 15px;
+}
+.skill-list .shu{
+    color: #e1e5e7;
+}
+.skill-list li{
+    min-height: 50px;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.skill-list .demand{
+    line-height: 50px;
+}
+/* .skill-list .self-des{
+    display: table;
+}
+.skill-list .self-des span{
+    display: table-cell;
+} */
+.li-l{
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 50px;
+    border-right: 1px solid #ccc;
+    color: #999;
+}
+.skill-list .li-r{
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 50px;
+}
+.footer{
+    position: fixed;
+    left: 15px;
+    right: 15px;
+    height: 44px;
+    bottom: 20px;
+    /* margin: 0 15px; */
+}
+.liuyan, .phone{
+    width: 46%;
+    height: 100%;
+    border: 2px solid #5fc0cd;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #5fc0cd;
+}
+.liuyan{
+    margin-right: 8px;
+}
+.phone{
+    margin-left: 8px;
+    background-color: #5fc0cd;
+    color: #fff;
 }
