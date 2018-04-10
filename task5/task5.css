@@ -1,0 +1,95 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.shu{
+    color: #5fc0cd;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #5fc0cd;
+    color: #fff;
+}
+.header .back{
+    float: left;
+    width: 30px;
+    height: 40px;
+    background-image: url("./imgs/back.png");
+    background-size: 13px 14px;
+    background-position: 16px 13px;
+    background-repeat: no-repeat;
+}
+
+
+.header .person-page{
+    margin: 0 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main{
+    margin-top: 40px;
+}
+.main .bg-page{
+    height: 162px;
+    background: url("./imgs/bg.png") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.bg-page .container{
+    margin: 0 15px;
+    margin-top: 40px;
+}
+.container .avatar{
+    float: left;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: url("./imgs/avatar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .person-info{
+    height: 85px;
+    margin-left: 105px;
+    color: #fff;
+}
+
+.person-info .wrapper{
+    display: inline-block;
+}
+.container .person-info p{
+    margin: 20px 0 6px 0;
+}
+.container .person-info img{
+    width: 9px;
+    vertical-align: middle;
+}
+.container .person-info span{
+    font-size: 13px;
+}
+
+/* .detail-info{
+
+} */
+.detail-info .skill{
+    margin: 10px 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.detail-info .skill p{
+    font-size: 13px;
+    padding-left: 13px;
+    height: 30px;
+}
